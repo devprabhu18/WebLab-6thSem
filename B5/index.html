@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greet ME</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        .gg{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Greet Me</h1>
+    <div class="gg">
+    <form onsubmit="fun()"">
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="FirstName" id="fname"><br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" placeholder="LasttName" id="lname"><br><br>       
+        <input type="submit" value="GreetMe">
+    </form>
+</div>
+</body>
+<script>
+    const fun=()=>{
+        let fname=document.getElementById('fname').value;
+        let lname=document.getElementById('lname').value;
+        alert(`Hellow ${fname} ${lname}`);
+    }
+</script>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital</title>
+</head>
+<body>
+    <h1>Capital</h1> <br>
+    <h2>Select the country :</h2>
+    <select name="country" id="cap" onchange="fun()">
+        <option value="nul">--SELECT YOUR OPTIONS--</option>
+        <option value="1">India</option>
+        <option value="2">Japan</option>
+        <option value="3">Russia</option>
+        <option value="4">USA</option>
+        <option value="5">Sri Lanka</option>
+    </select>
+    <p id="capi"></p>
+</body>
+<script>
+    const fun=()=>{
+        let con=document.getElementById("cap").value;
+        let cap="select the country";
+        if(con=="nul"){
+            alert("Please Select an country");
+        }
+        if(con=="1"){
+            cap="New";
+        }
+        if(con=="2"){
+            cap="Tok";
+        }
+        if(con=="3"){
+            cap="Mos";
+        }
+        if(con=="4"){
+            cap="DC";
+        }
+        if(con=="5"){
+            cap="COl";
+        }
+        let el=document.getElementById("capi");
+        capi.innerHTML=cap;
+    }
+</script>
+</html>

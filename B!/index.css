@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    width: 1000px;
+    height: 250px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+tr,td,th{
+    border: 1px solid black;
+}
