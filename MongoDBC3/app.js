@@ -54,6 +54,4 @@ async function findDocuments(db) {
         console.log(doc);
     });
 }
-
-// Call main function to start the application
 main().catch(console.error);
