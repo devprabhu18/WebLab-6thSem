@@ -24,8 +24,5 @@ npm install
 npm run dev
 ```
 
-## Contributing
-
-You can send a PR if you have a better code or an easier one. Consider giving a star if you like the repository. Thank You!
 ___
 All the best for the exmas!!!
